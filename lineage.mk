@@ -1,6 +1,5 @@
-# Boot animation
-TARGET_SCREEN_HEIGHT	:= 960
-TARGET_SCREEN_WIDTH	:= 540
+# Bootanimation
+TARGET_BOOTANIMATION_SIZE := 720x407
 
 TARGET_KERNEL_CONFIG := aosp_yukon_eagle_defconfig
 
@@ -9,8 +8,9 @@ $(call inherit-product, device/sony/eagle/device.mk)
 $(call inherit-product, frameworks/native/build/phone-xhdpi-1024-dalvik-heap.mk)
 $(call inherit-product, $(SRC_TARGET_DIR)/product/aosp_base_telephony.mk)
 
-# Inherit LineageOS common Phone stuff.
-$(call inherit-product, vendor/cm/config/common_full_phone.mk)
+# Recovery
+PRODUCT_COPY_FILES += \
+    device/sony/eagle/rootdir/twrp.fstab:recovery/root/etc/twrp.fstab
 
 # Fingerprint for eagle (from stock)
 PRODUCT_BUILD_PROP_OVERRIDES += \
