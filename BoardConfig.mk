@@ -34,6 +34,7 @@ TW_NO_SCREEN_BLANK := true
 TW_BRIGHTNESS_PATH := "/sys/class/leds/lcd-backlight/brightness"
 RECOVERY_GRAPHICS_USE_LINELENGTH := true
 TARGET_RECOVERY_QCOM_RTC_FIX := true
+TW_DEFAULT_LANGUAGE := ru
 RECOVERY_SDCARD_ON_DATA := true
 TW_INCLUDE_FUSE_EXFAT := true
 TW_FLASH_FROM_STORAGE := true
@@ -46,3 +47,10 @@ TW_CRYPTO_REAL_BLKDEV := "/dev/block/bootdevice/by-name/userdata"
 TW_CRYPTO_FS_OPTIONS := "nosuid,nodev,barrier=1,noauto_da_alloc,discard"
 TW_CRYPTO_FS_FLAGS := "0x00000406"
 TW_CRYPTO_KEY_LOC := "footer"
+TW_DEVICE_VERSION := Sikoka1989
+# Exclude SU
+TW_EXCLUDE_SUPERSU := true
+
+# Disable twrp app prompt
+TW_EXCLUDE_TWRPAPP := true
+
