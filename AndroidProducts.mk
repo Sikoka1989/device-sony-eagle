@@ -13,4 +13,4 @@
 # limitations under the License.
 
 PRODUCT_MAKEFILES := \
-	$(LOCAL_DIR)/aos_eagle.mk
+	$(LOCAL_DIR)/aos.mk
