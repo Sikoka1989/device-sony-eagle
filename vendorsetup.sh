@@ -14,4 +14,4 @@
 # limitations under the License.
 #
 
-add_lunch_combo aosp_eagle-userdebug
+add_lunch_combo pa_eagle-userdebug
