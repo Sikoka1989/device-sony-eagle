@@ -27,7 +27,7 @@ PRODUCT_SYSTEM_PROPERTY_BLACKLIST := ro.product.model
 TARGET_OTA_ASSERT_DEVICE := D2302,D2303,D2305,D2306,D2403,D2406,eagle
 
 # Override Product Name for LineageOS
-PRODUCT_NAME		:= aosp_eagle
+PRODUCT_NAME		:= pa_eagle
 PRODUCT_DEVICE		:= eagle
 PRODUCT_MODEL		:= Xperia M2
 PRODUCT_BRAND		:= Sony
