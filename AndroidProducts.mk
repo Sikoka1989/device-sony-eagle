@@ -13,4 +13,4 @@
 # limitations under the License.
 
 PRODUCT_MAKEFILES := \
-	$(LOCAL_DIR)/pa.mk
+	$(LOCAL_DIR)/pa_eagle.mk
