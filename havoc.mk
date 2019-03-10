@@ -1,6 +1,7 @@
 # Boot animation
 TARGET_SCREEN_HEIGHT	:= 960
 TARGET_SCREEN_WIDTH	:= 540
+
 TARGET_BOOT_ANIMATION_RES := 720
 
 TARGET_KERNEL_CONFIG := aosp_yukon_eagle_defconfig
