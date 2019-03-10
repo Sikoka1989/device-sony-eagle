@@ -11,6 +11,7 @@ $(call inherit-product, $(SRC_TARGET_DIR)/product/aosp_base_telephony.mk)
 
 # Inherit LineageOS common Phone stuff.
 $(call inherit-product, vendor/carbon/config/common.mk)
+$(call inherit-product, vendor/carbon/config/gsm.mk)
 
 # Fingerprint for eagle (from stock)
 PRODUCT_BUILD_PROP_OVERRIDES += \
