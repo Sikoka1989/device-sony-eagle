@@ -22,6 +22,13 @@ BOARD_SYSTEMIMAGE_PARTITION_SIZE   := 1962934272
 #Reserve space for data encryption (5461000192-16384)
 BOARD_USERDATAIMAGE_PARTITION_SIZE := 5460983808
 
+# Kernel configs
+TARGET_KERNEL_SOURCE := kernel/sony/msm8226
+TARGET_KERNEL_CONFIG := aosp_yukon_eagle_defconfig
+BOARD_KERNEL_IMAGE_NAME := zImage
 BOARD_KERNEL_CMDLINE += androidboot.hardware=eagle
+
+# Vendor platform
+BOARD_VENDOR := sony
 
 TARGET_LD_SHIM_LIBS := /system/lib/hw/camera.msm8226.so|libshim_camera.so:/system/vendor/lib/libqomx_jpegenc.so|libboringssl-compat.so:/system/lib/libcamera_client.so|libshim_camera.so
