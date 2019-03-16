@@ -19,7 +19,7 @@ PRODUCT_BUILD_PROP_OVERRIDES += BUILD_FINGERPRINT:=Sony/D2303/D2303:5.1.1/18.6.A
 PRODUCT_GMS_CLIENTID_BASE := android-sonyericsson
 
 PRODUCT_DEFAULT_PROPERTY_OVERRIDES += \
-    persist.sys.timezone=Asia/Shanghai \
+    persist.sys.timezone=Europa/Minsk
 
 PRODUCT_DEFAULT_LOCALE := ru_RU
 
